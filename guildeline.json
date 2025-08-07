@@ -1,189 +1,191 @@
 {
+  "uxWritingGuidelines": {
     "writingStyle": {
-        "dos": [
-            "Use American English.",
-            "Write from the user’s perspective, not the system’s.",
-            "Use active voice and simple tense.",
-            "Be direct, helpful, and avoid blaming the user.",
-            "Use complete sentences ending with a period.",
-            "Be concise; avoid long sentences.",
-            "Use Title Case for titles and labels.",
-            "Example: \"The Base Currency Code is required.\""
-        ],
-        "donts": [
-            "Don’t end labels with a colon (:).",
-            "Avoid contractions (e.g., use \"are not\" instead of \"aren’t\").",
-            "Avoid exclamation marks, ellipsis (...), brackets, quotation marks, and ampersand (&).",
-            "Do not use UPPERCASE except for obvious abbreviations.",
-            "Avoid idioms and jargon.",
-            "Avoid referring to UI components explicitly.",
-            "Avoid using \"please\" unless asking for inconvenience or software blame."
-        ]
+      "dos": [
+        "Use American English.",
+        "Write from the user’s perspective, not the system’s.",
+        "Use active voice and simple tense.",
+        "Be direct, helpful, and avoid blaming the user.",
+        "Use complete sentences ending with a period.",
+        "Be concise; avoid long sentences.",
+        "Use Title Case for titles and labels.",
+        "Example: \"The Base Currency Code is required.\""
+      ],
+      "donts": [
+        "Don’t end labels with a colon (:).",
+        "Avoid contractions (e.g., use \"are not\" instead of \"aren’t\").",
+        "Avoid exclamation marks, ellipsis (...), brackets, quotation marks, and ampersand (&).",
+        "Do not use UPPERCASE except for obvious abbreviations.",
+        "Avoid idioms and jargon.",
+        "Avoid referring to UI components explicitly.",
+        "Avoid using \"please\" unless asking for inconvenience or software blame."
+      ]
     },
     "toneAndVoice": {
-        "points": [
-            "Use business conversational language—professional but personable.",
-            "Avoid addressing the user directly as \"you\".",
-            "Avoid technical or coding terminology.",
-            "Be direct and concise.",
-            "Example: \"Restart your computer.\" instead of \"You need to restart your computer.\""
-        ]
+      "points": [
+        "Use business conversational language—professional but personable.",
+        "Avoid addressing the user directly as \"you\".",
+        "Avoid technical or coding terminology.",
+        "Be direct and concise.",
+        "Example: \"Restart your computer.\" instead of \"You need to restart your computer.\""
+      ]
     },
     "grammar": {
-        "points": [
-            "Use active, simple tense (present, past, future simple).",
-            "Avoid passive voice (e.g., avoid \"is/are/has/have/was/were\").",
-            "Prefer short, clear messages.",
-            "Example: \"Report created.\" instead of \"Report is created.\"",
-            "In buttons, use singular form for cleaner UI (e.g., \"Copy Line\").",
-            "In messages, clarity is more important than grammar correctness."
-        ]
+      "points": [
+        "Use active, simple tense (present, past, future simple).",
+        "Avoid passive voice (e.g., avoid \"is/are/has/have/was/were\").",
+        "Prefer short, clear messages.",
+        "Example: \"Report created.\" instead of \"Report is created.\"",
+        "In buttons, use singular form for cleaner UI (e.g., \"Copy Line\").",
+        "In messages, clarity is more important than grammar correctness."
+      ]
     },
     "writingStrategy": [
-        "Consider context: who, when, what happens before and after.",
-        "Avoid excessive explanatory text in UI (may indicate UX problems)."
+      "Consider context: who, when, what happens before and after.",
+      "Avoid excessive explanatory text in UI (may indicate UX problems)."
     ],
     "translationConsiderations": {
-        "additionalSpaceByLength": {
-            "1-10": "200%",
-            "11-20": "100%",
-            "21-30": "80%",
-            "31-50": "60%",
-            "51-70": "40%",
-            "70+": "30%"
-        }
+      "additionalSpaceByLength": {
+        "1-10": "200%",
+        "11-20": "100%",
+        "21-30": "80%",
+        "31-50": "60%",
+        "51-70": "40%",
+        "70+": "30%"
+      }
     },
     "capitalizationAndStyling": {
-        "capitalization": [
-            "Use Title Case for titles, labels, and commands.",
-            "Limit title case in messages to main object of interest."
-        ],
-        "stylingPreference": [
-            "Use bold for page/field names in messages.",
-            "Use plain text if understandable.",
-            "Use double quotes only if necessary."
-        ]
+      "capitalization": [
+        "Use Title Case for titles, labels, and commands.",
+        "Limit title case in messages to main object of interest."
+      ],
+      "stylingPreference": [
+        "Use bold for page/field names in messages.",
+        "Use plain text if understandable.",
+        "Use double quotes only if necessary."
+      ]
     },
     "commonTerms": [
-        {
-            "term": "Log in",
-            "meaning": "Authenticate user into system",
-            "avoid": [
-                "Log on",
-                "Sign in"
-            ]
-        },
-        {
-            "term": "Log out",
-            "meaning": "Exit system",
-            "avoid": []
-        },
-        {
-            "term": "Sign up",
-            "meaning": "Register new user",
-            "avoid": []
-        },
-        {
-            "term": "New [object]",
-            "meaning": "Create new record ready for editing",
-            "avoid": [
-                "Create",
-                "Create New"
-            ]
-        },
-        {
-            "term": "Save",
-            "meaning": "Save new record",
-            "avoid": [
-                "OK"
-            ]
-        },
-        {
-            "term": "Edit [object]",
-            "meaning": "Modify existing record",
-            "avoid": [
-                "Modify",
-                "Update"
-            ]
-        },
-        {
-            "term": "Delete [object]",
-            "meaning": "Permanently delete record",
-            "avoid": [
-                "Remove"
-            ]
-        },
-        {
-            "term": "Remove [object]",
-            "meaning": "Remove record from context only",
-            "avoid": []
-        },
-        {
-            "term": "Go to",
-            "meaning": "Navigate elsewhere (use only in feedback messages)",
-            "avoid": [
-                "Use in commands or tooltips"
-            ]
-        },
-        {
-            "term": "Details",
-            "meaning": "Specific information; avoid ambiguous terms",
-            "avoid": [
-                "Detail",
-                "Zoom",
-                "Go to details"
-            ]
-        },
-        {
-            "term": "Settings",
-            "meaning": "Individual user settings",
-            "avoid": [
-                "Preferences",
-                "Options",
-                "Parameters"
-            ]
-        },
-        {
-            "term": "Configuration",
-            "meaning": "Admin/group settings",
-            "avoid": []
-        },
-        {
-            "term": "Manage",
-            "meaning": "Manage group of items or people",
-            "avoid": []
-        }
+      {
+        "term": "Log in",
+        "meaning": "Authenticate user into system",
+        "avoid": [
+          "Log on",
+          "Sign in"
+        ]
+      },
+      {
+        "term": "Log out",
+        "meaning": "Exit system",
+        "avoid": []
+      },
+      {
+        "term": "Sign up",
+        "meaning": "Register new user",
+        "avoid": []
+      },
+      {
+        "term": "New [object]",
+        "meaning": "Create new record ready for editing",
+        "avoid": [
+          "Create",
+          "Create New"
+        ]
+      },
+      {
+        "term": "Save",
+        "meaning": "Save new record",
+        "avoid": [
+          "OK"
+        ]
+      },
+      {
+        "term": "Edit [object]",
+        "meaning": "Modify existing record",
+        "avoid": [
+          "Modify",
+          "Update"
+        ]
+      },
+      {
+        "term": "Delete [object]",
+        "meaning": "Permanently delete record",
+        "avoid": [
+          "Remove"
+        ]
+      },
+      {
+        "term": "Remove [object]",
+        "meaning": "Remove record from context only",
+        "avoid": []
+      },
+      {
+        "term": "Go to",
+        "meaning": "Navigate elsewhere (use only in feedback messages)",
+        "avoid": [
+          "Use in commands or tooltips"
+        ]
+      },
+      {
+        "term": "Details",
+        "meaning": "Specific information; avoid ambiguous terms",
+        "avoid": [
+          "Detail",
+          "Zoom",
+          "Go to details"
+        ]
+      },
+      {
+        "term": "Settings",
+        "meaning": "Individual user settings",
+        "avoid": [
+          "Preferences",
+          "Options",
+          "Parameters"
+        ]
+      },
+      {
+        "term": "Configuration",
+        "meaning": "Admin/group settings",
+        "avoid": []
+      },
+      {
+        "term": "Manage",
+        "meaning": "Manage group of items or people",
+        "avoid": []
+      }
     ],
     "feedbackMessages": {
-        "advice": [
-            "State the problem and probable cause if known.",
-            "Tell user what they can do.",
-            "Be specific for quick diagnosis and resolution.",
-            "Write user-centered messages, avoid system-centered.",
-            "Avoid referring to UI commands or components.",
-            "Avoid overly strong warnings or exclamation marks."
-        ],
-        "examples": [
-            {
-                "before": "Warning! The whole Quantity Picked on selected lines will be scrapped.",
-                "better": "The whole Quantity Picked on selected lines will be scrapped.",
-                "note": "Avoid causing user panic."
-            },
-            {
-                "before": "Sales Part 123 does not exist.",
-                "better": "Sales Part 123 not found.",
-                "note": "Use natural language; \"exists\" is technical."
-            },
-            {
-                "before": "Field [VendorNo] is mandatory for Customer Order Line and requires a value.",
-                "better": "Vendor No is mandatory for Customer Order Line.",
-                "note": "Refer to label name, be concise."
-            },
-            {
-                "before": "Required Quantity should be a positive integer.",
-                "better": "Required Quantity must be a positive integer.",
-                "note": "Be direct; \"must\" is better than \"should\"."
-            }
-        ]
+      "advice": [
+        "State the problem and probable cause if known.",
+        "Tell user what they can do.",
+        "Be specific for quick diagnosis and resolution.",
+        "Write user-centered messages, avoid system-centered.",
+        "Avoid referring to UI commands or components.",
+        "Avoid overly strong warnings or exclamation marks."
+      ],
+      "examples": [
+        {
+          "before": "Warning! The whole Quantity Picked on selected lines will be scrapped.",
+          "better": "The whole Quantity Picked on selected lines will be scrapped.",
+          "note": "Avoid causing user panic."
+        },
+        {
+          "before": "Sales Part 123 does not exist.",
+          "better": "Sales Part 123 not found.",
+          "note": "Use natural language; \"exists\" is technical."
+        },
+        {
+          "before": "Field [VendorNo] is mandatory for Customer Order Line and requires a value.",
+          "better": "Vendor No is mandatory for Customer Order Line.",
+          "note": "Refer to label name, be concise."
+        },
+        {
+          "before": "Required Quantity should be a positive integer.",
+          "better": "Required Quantity must be a positive integer.",
+          "note": "Be direct; \"must\" is better than \"should\"."
+        }
+      ]
     }
+  }
 }
