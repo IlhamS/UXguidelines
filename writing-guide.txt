@@ -1,0 +1,43 @@
+"uxWritingGuidelines":
+"Writing Style - Dos: Use American English; Write from the user’s perspective, not the system’s; Use active voice and simple tense; Be direct, helpful, and avoid blaming the user; Use complete sentences ending with a period; Be concise; avoid long sentences; Use Title Case for titles and labels; Example: 'The Base Currency Code is required.'
+
+Writing Style - Don'ts: Don’t end labels with a colon (:); Avoid contractions (e.g., use 'are not' instead of 'aren’t'); Avoid exclamation marks, ellipsis (...), brackets, quotation marks, and ampersand (&); Do not use UPPERCASE except for obvious abbreviations; Avoid idioms and jargon; Avoid referring to UI components explicitly; Avoid using 'please' unless asking for inconvenience or software blame.
+
+Tone and Voice: Use business conversational language—professional but personable; Avoid addressing the user directly as 'you'; Avoid technical or coding terminology; Be direct and concise; Example: 'Restart your computer.' instead of 'You need to restart your computer.'
+
+Grammar: Use active, simple tense; Avoid passive voice (is/are/was/were); Prefer short, clear messages; Example: 'Report created.' instead of 'Report is created.'; Use singular form in buttons (e.g., 'Copy Line'); Prioritize clarity over strict grammar in messages.
+
+Writing Strategy: Consider context (who, when, before/after); Avoid excessive explanatory text in UI.
+
+Translation Considerations (extra space needed by text length): 1-10: 200%, 11-20: 100%, 21-30: 80%, 31-50: 60%, 51-70: 40%, 70+: 30%
+
+Capitalization: Use Title Case for titles, labels, and commands; Limit title case in messages to the main object.
+
+Styling Preference: Use bold for page/field names; Use plain text if understandable; Use double quotes only if necessary.
+
+Common Terms:
+- Log in: Authenticate user into system. Avoid: Log on, Sign in
+- Log out: Exit system.
+- Sign up: Register new user.
+- New [object]: Create new record ready for editing. Avoid: Create, Create New
+- Save: Save new record. Avoid: OK
+- Edit [object]: Modify existing record. Avoid: Modify, Update
+- Delete [object]: Permanently delete record. Avoid: Remove
+- Remove [object]: Remove record from context only.
+- Go to: Navigate elsewhere (feedback messages only). Avoid: Use in commands/tooltips
+- Details: Specific info. Avoid: Detail, Zoom, Go to details
+- Settings: User settings. Avoid: Preferences, Options, Parameters
+- Configuration: Admin/group settings.
+- Manage: Manage group of items or people.
+
+Feedback Message Advice: State the problem and probable cause if known; Tell the user what to do; Be specific; Write user-centered messages; Avoid UI terms; Avoid strong warnings or exclamations.
+
+Feedback Examples:
+- Bad: 'Warning! The whole Quantity Picked on selected lines will be scrapped.'  
+  Better: 'The whole Quantity Picked on selected lines will be scrapped.' (Avoid panic)
+- Bad: 'Sales Part 123 does not exist.'  
+  Better: 'Sales Part 123 not found.' (Avoid technical words)
+- Bad: 'Field [VendorNo] is mandatory for Customer Order Line and requires a value.'  
+  Better: 'Vendor No is mandatory for Customer Order Line.' (Be concise, reference label)
+- Bad: 'Required Quantity should be a positive integer.'  
+  Better: 'Required Quantity must be a positive integer.' (Use must instead of should)"
